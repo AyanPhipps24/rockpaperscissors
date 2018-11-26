@@ -15,7 +15,8 @@ var randomNumber = 0
 $("#shoot").click(function(){
     userChoice= $("#input").val();
    randomNumber=Math.random();
-    $("#userChoice").text (userChoice);
+   computerChoice= $("randomNumber")
+    $("#userChoice").text(userChoice);
     alert(randomNumber);
 });
- 
+
